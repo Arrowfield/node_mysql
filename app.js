@@ -8,7 +8,7 @@ const indexRouter=require('./routes/index');
 const cartRouter=require('./routes/cart');
 //创建web服务器
 var server=express();
-server.listen(8080);
+server.listen(5050);
 server.use(cors({
 	'credentials':true,
 	'origin':'*'
